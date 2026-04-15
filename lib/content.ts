@@ -37,7 +37,7 @@ export const heroContent = {
 export const cards = [
   {
     id: 1,
-    image: "/images/card1.svg",
+    image: "/images/card1.jpg",
     badge: "BEST",
     title: "고추바사삭",
     titleEn: "Gochu Basasak",
@@ -47,7 +47,7 @@ export const cards = [
   },
   {
     id: 2,
-    image: "/images/card2.svg",
+    image: "/images/card2.jpg",
     badge: "HOT",
     title: "볼케이노",
     titleEn: "Volcano",
@@ -57,7 +57,7 @@ export const cards = [
   },
   {
     id: 3,
-    image: "/images/card3.svg",
+    image: "/images/card3.jpg",
     badge: "PICK",
     title: "오리지널 스노잉",
     titleEn: "Original Snowing",
@@ -68,7 +68,7 @@ export const cards = [
 ];
 
 export const aboutContent = {
-  image: "/images/about.svg",
+  image: "/images/about.jpg",
   eyebrow: "매장소개",
   eyebrowEn: "About Us",
   headline: "오븐으로 굽는 건강한 치킨",
