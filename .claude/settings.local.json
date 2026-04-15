@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(npm install:*)",
+      "Bash(Read \"C:/Users/김한얼/AppData/Local/Temp/claude/C--Users-----desktop-business-projects-brand-website/09d43f1b-b342-4268-a40d-b02827092246/tasks/bq7aigu79.output\")"
+    ]
+  }
+}
