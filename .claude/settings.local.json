@@ -3,7 +3,24 @@
     "allow": [
       "Bash(npm run:*)",
       "Bash(npm install:*)",
-      "Bash(Read \"C:/Users/김한얼/AppData/Local/Temp/claude/C--Users-----desktop-business-projects-brand-website/09d43f1b-b342-4268-a40d-b02827092246/tasks/bq7aigu79.output\")"
+      "Bash(Read \"C:/Users/김한얼/AppData/Local/Temp/claude/C--Users-----desktop-business-projects-brand-website/09d43f1b-b342-4268-a40d-b02827092246/tasks/bq7aigu79.output\")",
+      "mcp__claude_ai_Google_Drive__search_files",
+      "WebSearch",
+      "Read(//c/Users/김한얼/.claude//**)",
+      "Read(//c/Users/김한얼/.claude/**)",
+      "Bash(npm --version)",
+      "Bash(ls /c/Users/김한얼/desktop/business/projects/brand-website/.env*)",
+      "WebFetch(domain:www.kfnews.kr)",
+      "WebFetch(domain:www.qsrmagazine.com)",
+      "WebFetch(domain:www.restaurantbusinessonline.com)",
+      "WebFetch(domain:www.foodbusinessnews.net)",
+      "WebFetch(domain:www.foodbank.co.kr)",
+      "WebFetch(domain:www.foodnews.news)",
+      "WebFetch(domain:www.nrn.com)",
+      "WebFetch(domain:www.kfoodtimes.com)",
+      "WebFetch(domain:www.fastcasual.com)",
+      "WebFetch(domain:www.thinkfood.co.kr)",
+      "WebFetch(domain:restaurantbusinessonline.com)"
     ]
   }
 }
