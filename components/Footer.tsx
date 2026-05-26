@@ -58,11 +58,11 @@ export default function Footer() {
                 </svg>
                 <div className="space-y-1.5">
                   <div>
-                    <p className="text-white/80 font-medium">평일 {siteInfo.hours.weekday}</p>
+                    <p className="text-white/80 font-medium">월~목·일 {siteInfo.hours.weekday}</p>
                     <p className="text-white/40 text-xs">{siteInfo.hours.weekdayEn}</p>
                   </div>
                   <div>
-                    <p className="text-white/80 font-medium">주말·공휴일 {siteInfo.hours.weekend}</p>
+                    <p className="text-white/80 font-medium">금·토 {siteInfo.hours.weekend}</p>
                     <p className="text-white/40 text-xs">{siteInfo.hours.weekendEn}</p>
                   </div>
                 </div>
@@ -79,13 +79,38 @@ export default function Footer() {
               <div className="flex gap-3">
                 <a
                   href={siteInfo.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label="Instagram"
-                  className="group w-11 h-11 rounded-full border border-white/20 flex flex-col items-center justify-center hover:border-[var(--red-500)] hover:text-[var(--red-500)] transition-colors gap-0.5"
+                  className="group w-11 h-11 rounded-full border border-white/20 flex items-center justify-center hover:border-[var(--red-500)] hover:text-[var(--red-500)] transition-colors"
                 >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
                     <rect x="2" y="2" width="20" height="20" rx="5" />
                     <circle cx="12" cy="12" r="4" />
                     <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+                  </svg>
+                </a>
+                <a
+                  href={siteInfo.youtube}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="YouTube"
+                  className="group w-11 h-11 rounded-full border border-white/20 flex items-center justify-center hover:border-[var(--red-500)] hover:text-[var(--red-500)] transition-colors"
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.9 31.9 0 0 0 0 12a31.9 31.9 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1c.4-1.9.5-5.8.5-5.8s0-3.9-.5-5.8zM9.5 15.6V8.4l6.3 3.6-6.3 3.6z"/>
+                  </svg>
+                </a>
+                <a
+                  href={siteInfo.threads}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Threads"
+                  className="group w-11 h-11 rounded-full border border-white/20 flex items-center justify-center hover:border-[var(--red-500)] hover:text-[var(--red-500)] transition-colors"
+                >
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.2 10.8c-.1 0-.2-.1-.3-.1a5.4 5.4 0 0 0-2.7-2.3c-1-.4-2.2-.5-3.4-.3-1.8.3-3.2 1.3-3.8 2.8-.7 1.7-.5 3.6.5 5 .8 1 2 1.7 3.3 1.8 1.6.2 3-.3 3.9-1.4.6-.7.9-1.6.9-2.6 0-.8-.2-1.5-.7-2.1-.5-.6-1.2-.9-2-1-.7-.1-1.4 0-2 .4-.5.4-.8.9-.9 1.5-.1.9.4 1.7 1.2 1.9.4.1.8.1 1.1-.1.2-.1.3-.3.4-.5 0-.1 0-.3-.1-.4-.1-.1-.2-.1-.3-.1h-.1c.1-.2.3-.4.6-.4.4-.1.9.1 1.1.5.2.4.2.9 0 1.3-.3.6-.9 1-1.6 1-.9.1-1.7-.3-2.2-1-.5-.8-.6-1.9-.2-2.9.5-1.2 1.6-1.9 3-2 1 0 1.9.2 2.6.8.7.6 1.1 1.4 1.2 2.4.1 1.3-.3 2.6-1.2 3.5-1.1 1.1-2.7 1.6-4.4 1.4-1.9-.2-3.4-1.2-4.3-2.7-1-1.7-1.1-3.8-.4-5.8.8-2.1 2.5-3.5 4.7-3.9 1.5-.3 3-.1 4.3.5 1.2.6 2.1 1.5 2.7 2.7.1.2.2.5.3.7z"/>
+                    <path d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1zm6.3 14.6c-.4 1.4-1.3 2.6-2.5 3.4-1.4.9-3.1 1.2-4.8 1-2.1-.3-3.9-1.4-5.1-3.2-1.3-2-1.5-4.5-.6-6.9 1-2.6 3.1-4.3 5.7-4.7 1.8-.3 3.5-.1 5.1.7 1.5.7 2.6 1.9 3.3 3.4.1.3.2.5.3.8.3 1.5.1 3.1-.5 4.5-.3.4-.6.7-.9 1z"/>
                   </svg>
                 </a>
                 <a

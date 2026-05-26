@@ -26,6 +26,8 @@ export default function Delivery() {
               <a
                 key={platform.name}
                 href={platform.href}
+                target={platform.href !== "#" ? "_blank" : undefined}
+                rel={platform.href !== "#" ? "noopener noreferrer" : undefined}
                 className="inline-flex flex-col items-center justify-center border border-white/20 hover:border-white/60 text-white h-16 px-8 rounded-[4px] transition-colors hover:bg-white/5 gap-0.5"
               >
                 <span className="font-bold text-sm leading-tight">{platform.name}</span>

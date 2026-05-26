@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import CardGrid from "@/components/CardGrid";
+import Event from "@/components/Event";
 import About from "@/components/About";
 import Delivery from "@/components/Delivery";
 import Reviews from "@/components/Reviews";
@@ -10,6 +11,7 @@ export default function Home() {
     <>
       <Hero />
       <CardGrid />
+      <Event />
       <Reviews />
       <About />
       <Delivery />

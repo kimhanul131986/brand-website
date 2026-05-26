@@ -28,7 +28,9 @@ export default function CardGrid() {
         {/* Bottom CTA */}
         <div className="mt-12 text-center">
           <a
-            href="#contact"
+            href="https://www.goobne.co.kr/menu/menu_list_p"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex flex-col items-center justify-center border-2 border-[var(--red-500)] text-[var(--red-500)] hover:bg-[var(--red-500)] hover:text-white h-14 px-10 rounded-[4px] transition-colors gap-0.5"
           >
             <span className="font-bold text-sm leading-tight">전체 메뉴 보기</span>
